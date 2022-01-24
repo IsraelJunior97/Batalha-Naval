@@ -1,0 +1,35 @@
+1. Escrever um programa que simule o jogo Batalha Naval entre dois Jogadores
+
+Considerar uma matriz de 10x10
+Linhas: de 0 a 9
+Colunas: de 0 a 9
+
+Peças:
+
+2 navios: representados cada um pelo número 1
+2 submarinos: representados cada um por dois números 2 (cada número numa posição da matriz)
+1 contratorpedeiro: representado por três números 3 (cada número numa posição da matriz)
+1 navio-tanque: representado por quatros números 4 (cada número numa posição da matriz)
+1 porta-aviões: representado por cincos números 5 (cada número numa posição da matriz)
+
+ 
+
+Funções:
+
+a.      Posicionar as peças na matriz (usar apenas sentido horizontal e vertical), para cada um dos jogadores.
+Informar a posição(parte) de cada peça pelo número 
+Demais posições que não tem peças, número zero
+
+b.      Desenhar os tabuleiros na tela (Jogador A e Jogador B)
+
+c.      Ler coordenadas e mostrar a posição em cada tentativa dos jogadores
+
+Ganha o jogo quem abrir todas as peças do adversário
+
+ Dicas
+
+Para as tentativas usar a função gotoxy(num1, nun2) da biblioteca stdlib.h
+Essa função posiciona o cursor do mouse na linha num1 e coluna nun2.
+ 
+
+Faça um esquema das matrizes para exibição na tela, como exemplo da figura acima.
